@@ -1,0 +1,30 @@
+body {
+  background-color: whitesmoke;
+  font-size: 1.25em;
+  margin: 10px auto;
+  padding: 10px;
+}
+body .spinner-wrapper--active {
+  position: absolute;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+body .spinner-wrapper--active .spinner-border {
+  color: blue;
+  height: 100px;
+  width: 100px;
+}
+body .spinner-wrapper--hiden {
+  display: none;
+}
+body header {
+  border-bottom: 1px solid black;
+}
+body img {
+  max-width: 30px;
+}
